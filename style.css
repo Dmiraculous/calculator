@@ -1,0 +1,65 @@
+.container{
+  max-width: 280px;
+  margin: 10vh auto 0 auto;
+
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 15px;}
+
+.operator:hover{
+  background-color: lightgreen;
+}
+.numbers:hover{
+  background-color: lightgreen;
+}
+
+.del{
+  grid-row: 1/2;
+  background-color: red;
+}
+.equal{
+  grid-row: 1/3;
+  background-color: seagreen;
+}
+.numbers{
+  border: 0.5px solid seagreen;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 25px;
+}
+.operator{
+  border: 0.5px solid seagreen;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 25px;
+}
+.display{
+  width: 100%;
+  height: 10vh;
+  background-color: lightgreen;
+  text-align: right;
+
+}
+body{
+  height: 100vh;
+  background-color: black;
+}
+.result{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+/**@media(max-width:480px){
+  .container{
+    font-size: 30px;
+
+  }
+}
+  **/
